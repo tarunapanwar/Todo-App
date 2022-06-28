@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*************** body ******************/
+.section-heading{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/*************common css **************/
+.blue-section-container{
+  padding: 55px 250px;
+  background: #cae2ed;
+}
+.white-section-content{
+  padding: 55px 250px;
+}
+
+/**************NAV BAR ****************/
+.links{
+  color: #000;
+  font-weight: 500;
+}
+.phoneno{
+  color: blue;
+  font-weight: 700;
+  font-size: 25px;
+}
+.background{
+  background-color: #fff;
+  padding: 2rem !important;
+}
+.logo{
+  width: 25%;
+}
+
+@media (max-width: 425px){
+  .logo{
+        width: 70%;
+    }
+    .background{
+        background-color: #fff;
+        padding: 0.5rem !important;
+    }
+}
+
+/***************section1***************/
+.sectiononecontent{
+  display: flex;
+}
+.leftsidecontent{
+  justify-content: center;
+}
+.section1-button{
+  width: 20%;
+}
+.white-section-content .line1{
+  font-size: 45px;
+  font-weight: 400;
+}
+.white-section-content .line2{
+  font-size: 35px;
+  font-weight: 500;
+  color: blue;
+}
+.white-section-content .line3{
+  font-size: 25px;
+}
+@media (max-width: 425px){
+  .rightsideimage{
+    display: none;
+  }
+  .white-section-content .line1{
+    font-size: 30px;
+  }
+  .white-section-content .line2{
+    font-size: 25px;
+  }
+  .white-section-content .line3{
+    font-size: 15px;
+  }
+}
+
+/*************** Section 2 *****************/
+.section2-container{
+  background: #cae2ed;
+  padding: 55px 0;
+}
+.section2leftheading{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.section2rightcontent{
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (max-width: 425px){
+  .section2leftheading{
+    font-size: 25px;
+  }
+}
+
+/*************** section 3 *****************/
+.imagepropcontainer{
+  text-align: center;
+  padding: 55px 0;
+}
+.imagepropcontainer .boxpropimage{
+  width: 40%;
+  margin: auto;
+}
+.imagepropcontainer .heading{
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.imagepropcontainer .content{
+  font-size: 18px;
+}
+
+/**************** section 4 ********************/
+.leftsidecontent .heading{
+  font-size: 45px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.section4list li{
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.rightsideimage{
+  width: 60%;
+}
+
+/******************section 5 ******************/
+.section5-heading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.imgcontainer{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  background-color: #fff;
+  padding: 5px;
+  left: 45px;
+}
+.textcontainer{
+  border: 3px solid blue;
+  border-radius: 15px;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.boxcontainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/****************** slider ***************/
+.slider-heading{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.slider-content-box{
+  padding: 55px 0;
+}
+.slider-content{
+  text-align: center;
+  font-size: 18px;
+  padding: 25px;
+  font-weight: 450;
+} 
+
+/**************** footer *****************/
+.footerlogoimage{
+  width: 100%;
+}
+.footer-stacks{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-stacks ul{
+  padding-left: 1rem !important;
+}
+.footer-stacks ul li{
+  list-style-type: none;
+  padding: 5px 0;
+  margin-left: 0 !important;
+  text-transform: capitalize;
+}
+.footerlinkheading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif !important;
+}
